@@ -73,7 +73,14 @@
 }
 
 .book__footer-line {
+    text-align: center;
 	margin-top: 4.25rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    opacity: 20%;
+
 }
 
 .book__footer-lower {

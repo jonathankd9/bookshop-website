@@ -75,7 +75,6 @@ const Footer = () => {
 			<hr className="book__footer-line" />
 			<div className="book__footer-lower">
 				<p>
-					{" "}
 					© Drafted by <span>Victorflow</span> - Powered by <span>Webflow</span>
 				</p>
 			</div>
