@@ -24,11 +24,11 @@
     gap: 0.625rem;
 }
 .book__navbar-social-box {
+    display: grid;
     background-color: white;
     height: 45px;
     width: 45px;
-    align-content: center;
-    justify-items: center;
+    place-items: center;
 }
 
 .book__navbar-links {

@@ -1,0 +1,90 @@
+.book__footer {
+	min-height: 50vh;
+	background-color: var(--primary-color);
+}
+
+.book__footer-heading {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: left;
+	letter-spacing: -2%;
+	color: white;
+	margin-bottom: 1.3rem;
+}
+
+.book__footer-upper {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+	padding: 8.5rem 2rem 0 2rem;
+}
+/* .book__footer-explore,
+.book__footer-utility,
+.book__footer-keep {
+    
+} */
+
+/* .book__footer-keep {
+    width: 20%;
+} */
+.book__footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.book__footer-social-box {
+    margin-top: 27px;
+    display: grid;
+    height: 55px;
+    width: 55px;
+    /* background-color: var(--secondary-color); */
+    place-items: center;
+    border: 1px solid #FFCA42;;
+    border-radius: 0px;
+
+}
+
+.book__footer-heading-contact {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: flex-start;
+}
+.book__footer-heading-contact_details {
+	display: flex;
+	align-items: first baseline;
+	color: var(--tertiary-color);
+	font-family: "Inter", sans-serif;
+	/* font-weight: 700; */
+	font-size: 18px;
+	line-height: 37px;
+	text-align: left;
+	letter-spacing: -2%;
+}
+.book__footer-heading-contact_details p:nth-child(1) {
+	font-family: "Cardo", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	letter-spacing: -1%;
+}
+
+.book__footer-line {
+	margin-top: 4.25rem;
+}
+
+.book__footer-lower {
+	font-family: "Inter", sans-serif;
+	color: var(--tertiary-color);
+	font-size: 17px;
+	line-height: 34px;
+	text-align: center;
+	letter-spacing: -1%;
+	padding: 1.125rem 0 1.438rem;
+}
+.book__footer-lower p span {
+	font-weight: 700;
+}
