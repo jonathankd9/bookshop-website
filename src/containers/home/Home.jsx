@@ -8,8 +8,18 @@ const Home = () => {
       <Navbar />
       <h1>Home</h1>
 
-      {/* Read a Free Chapter */}
+      {/* Chapters */}
+      <div className="home-chapters">
+        
+      </div>
+
+      {/* Testimonials */}
+      <div className="home-testimonials">
+
+      </div>
+
       <Article/>
+      {/* Read a Free Chapter */}
       <Readfreechapter/>
       <Footer />
       </div>
