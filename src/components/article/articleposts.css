@@ -1,0 +1,57 @@
+.posts-card {
+    height: 600px;
+    width: 410px;
+
+}
+
+.posts-card_image {
+    height: 326px;
+    width: 410px;
+}
+
+.posts-card_whitecard {
+    background-color: white;
+    padding: 27px;
+    box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.04);
+}
+
+.posts-card_title {
+    font-size: 24px;
+    font-family: 'Cardo', sans-serif;
+    line-height: 28.5px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.posts-card_text {
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    line-height: 34px;
+    letter-spacing: -1%;
+    color: #969AA0;
+    margin-top: 14px;
+}
+
+
+.posts-card_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.posts-card_footer-readmore {
+    font-family: 'Cardo', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    text-decoration: underline;
+    color: #1B3764;
+}
+
+.posts-card_footer-author {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 125%;
+    color: #1B3764;
+}

@@ -1,0 +1,29 @@
+.book-article {
+    min-height: 1016px;
+    background-color: var(--bg-color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.book-article_container {
+    align-items: center;
+}
+
+.book-article_container-posts {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    
+}
+
+.book-article-line {
+    width: 55px;
+    border: 3px solid #FFCA42;
+    margin-top: 22px;
+
+}

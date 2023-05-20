@@ -1,0 +1,80 @@
+.book_readfreechapter {
+    min-height: 820px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.book_readfreechapter-container {
+    width: 1300px;
+    height: 506px;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book_readfreechapter-container_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book_readfreechapter-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -1%;
+    color: var(--primary-color);
+    width: 657px;
+}
+
+.book_readfreechapter-container_box-submit {
+    display: flex;
+    gap: 11px;
+    height: 65px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 38px;
+}
+
+.book_readfreechapter-container_box-submit input {
+    width: 529px;
+    height: auto;
+    background-color: white;
+    border-style: none; 
+}
+.book_readfreechapter-container_box-submit input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    line-height: 180%;
+    letter-spacing: -0.01em;
+    color: #969AA0;
+}
+
+.book_readfreechapter-container_box-submit button {
+    font-family: 'Cardo', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    height: auto;
+    width: 300px;
+    border-style: none;
+    cursor: pointer;
+    
+}
+
+.book_readfreechapter-line {
+    color: var(--primary-color);
+    width: 55px;
+    border: 3px solid #1B3764;
+    margin-top: 17px;
+    margin-bottom: 20px;
+
+}
