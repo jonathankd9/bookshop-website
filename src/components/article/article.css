@@ -4,10 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .book-article_container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
