@@ -6,7 +6,7 @@
 
 .posts-card_image {
     height: 326px;
-    width: 410px;
+    width: 100%;
 }
 
 .posts-card_whitecard {
@@ -46,6 +46,7 @@
     line-height: 125%;
     text-decoration: underline;
     color: #1B3764;
+    text-underline-offset: 10px;
 }
 
 .posts-card_footer-author {
