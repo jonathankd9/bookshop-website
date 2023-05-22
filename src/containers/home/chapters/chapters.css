@@ -1,0 +1,80 @@
+.chapters-card {
+	width: 39.375rem;
+	background-color: white;
+	padding: 48px 52px 43px 54px;
+	box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.04);
+}
+
+.chapters-card_container {
+	display: flex;
+	flex-direction: column;
+}
+
+.chapters-card_top {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	letter-spacing: -0.02em;
+	color: var(--primary-color);
+}
+
+.chapter-card_text {
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 180%;
+	letter-spacing: -0.01em;
+	color: #969aa0;
+	margin-top: 14px;
+}
+
+.chapter-card_bottom {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.chapter-card_bottom-pages,
+.chapter-card_bottom-length {
+	display: flex;
+}
+
+.chapter-card_bottom-pages img {
+	width: 1rem;
+	height: 1rem;
+	margin-right: 0.5rem;
+}
+.chapter-card_bottom-length img {
+	width: 1rem;
+	height: 1rem;
+	margin-right: 0.5rem;
+}
+
+/* .chapter-card_bottom-pages,
+.chapter-card_bottom-length img {
+	width: 1rem;
+	height: 1rem;
+} */
+
+.chapter-card_bottom p {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 120%;
+	color: var(--primary-color);
+	letter-spacing: -0.01em;
+}
+
+.chapter-card_bottom span {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 170%;
+	letter-spacing: -0.01em;
+	color: #969aa0;
+}

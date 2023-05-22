@@ -10,7 +10,7 @@ const Readfreechapter = () => {
                 
                 <hr className='book_readfreechapter-line'/>
 
-                <div className="book_readfreechapter-text">Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</div>
+                <p className="book_readfreechapter-text">Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
 
                 <div className="book_readfreechapter-container_box-submit">
                     <input placeholder="Your Email id..." type='email'  />

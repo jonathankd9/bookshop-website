@@ -1,0 +1,59 @@
+.testimonial-card {
+	width: 23.125rem;
+	height: 19.3125rem;
+	background-color: var(--primary-color);
+	padding: 36px 36px 36px 36px;
+}
+
+.testimonial-card_contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.testimonial-card_contact-top {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	align-items: center;
+}
+
+.testimonial-card_contact-right {
+	display: flex;
+	flex-direction: column;
+}
+
+.testimonial-card_name {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	letter-spacing: -0.02em;
+	color: #ffffff;
+}
+
+.testimonial-card_name-ratings {
+	width: 76px;
+	height: 12.67px;
+	margin-top: 8px;
+}
+
+.testimonial-card_title {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 120%;
+	letter-spacing: -0.01em;
+	color: #ffffff;
+	margin-top: 22px;
+}
+
+.testimonial-card_text {
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 180%;
+	letter-spacing: -0.01em;
+	color: #b4c7e7;
+	margin-top: 5px;
+}

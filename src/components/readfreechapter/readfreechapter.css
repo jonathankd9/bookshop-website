@@ -1,5 +1,5 @@
 .book_readfreechapter {
-    min-height: 820px;
+    min-height: 51.25rem;
     background-color: var(--bg-color);
     display: flex;
     justify-content: center;
@@ -8,8 +8,8 @@
 }
 
 .book_readfreechapter-container {
-    width: 1300px;
-    height: 506px;
+    width: 81.25rem;
+    height: 31.625rem;
     background-color: var(--yellow);
     display: flex;
     justify-content: center;
@@ -25,12 +25,12 @@
 
 .book_readfreechapter-text {
     font-family: 'Inter', sans-serif;
-    font-size: 19px;
-    line-height: 34px;
+    font-size: 1.1875rem;
+    line-height: 2.125rem;
     text-align: center;
     letter-spacing: -1%;
     color: var(--primary-color);
-    width: 657px;
+    width: 41.0625rem;
 }
 
 .book_readfreechapter-container_box-submit {
