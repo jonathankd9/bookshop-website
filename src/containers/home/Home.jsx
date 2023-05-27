@@ -4,15 +4,70 @@ import { Navbar, Footer, Readfreechapter, Article } from "../../components";
 import Ratings from "./../../assets/ratings.svg";
 import TestimonialCard from "./testimonialcard/TestimonialCard";
 import Chapters from "./chapters/Chapters";
+import Wywl from "./wywl/Wywl";
 import Martin from "./../../assets/Martin.png";
 import James from "./../../assets/James.png";
 import Christina from "./../../assets/Christina.png";
+import Wywlimg from "./../../assets/wywl.png";
+import GetCopy from "./../../assets/getcopy.png";
 
 const Home = () => {
 	return (
 		<div>
 			<Navbar />
 			<h1>Home</h1>
+
+			{/* Get a Copy of Book */}
+			<div className="home-getcopy">
+				<div className="home-getcopy_container">
+					<div className="home-getcopy_left">
+						<div className="home-getcopy_heading">Get Book Copy Today!</div>
+						<hr className="home-getcopy_line" />
+
+						<p className="home-getcopy_text">
+							This the first true value generator on the Internet. It uses
+							alphas dictionary of over 200 Latin words.
+						</p>
+						<button>Order Today</button>
+					</div>
+					<div className="home-getcopy_right">
+						<img src={GetCopy} alt="Get copy" />
+					</div>
+				</div>
+			</div>
+
+			{/* What you will learn */}
+			<div className="home-wywl">
+				<div className="home-wywl_container">
+					<div className="primary-heading">What you will learn?</div>
+					<hr className="home-chapters-line" />
+
+					<div className="home-wywl_display">
+						<div className="home-wywl_display-left">
+							<Wywl
+								number="01"
+								text="Use HDFS & Map Reduce for storing & analyzing data at scale."
+							/>
+							<Wywl
+								number="02"
+								text="Consume streaming data using Spark Streaming, Flink, and Storm."
+							/>
+							<Wywl
+								number="03"
+								text="Choose an appropriate data storage technology for your application"
+							/>
+							<Wywl
+								number="04"
+								text="Analyze non-relational data using HBase, Cassandra, and MongoDB."
+							/>
+						</div>
+
+						<div className="home-wywl_display-right">
+							<img src={Wywlimg} alt="What you will learn" />
+						</div>
+					</div>
+				</div>
+			</div>
 
 			{/* Chapters */}
 			<div className="home-chapters">

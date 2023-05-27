@@ -1,0 +1,31 @@
+.wywl-card {
+	width: 18.75rem;
+	height: 18.125rem;
+	background-color: var(--bg-color-2);
+	padding: 41px 33px 41px 33px;
+}
+
+.wywl-number {
+	border-radius: 50%;
+	width: 3.125rem;
+	height: 3.125rem;
+	padding: 0.8rem;
+	margin-bottom: 2rem;
+
+	background: var(--secondary-color);
+	text-align: center;
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	color: var(--primary-color);
+}
+
+.wywl-text {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 140%;
+	letter-spacing: -0.01em;
+	color: var(--primary-color);
+}

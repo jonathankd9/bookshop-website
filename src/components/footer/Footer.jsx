@@ -55,17 +55,17 @@ const Footer = () => {
 				<div className="book__footer-keep">
 					<div className="book__footer-heading">Keep in Touch</div>
 
-					<div className="book__footer-heading-contact">
-						<div className="book__footer-heading-contact_details">
-							<p> Address :</p>
+					<div className="book_footer-heading-contact">
+						<div className=".book__footer-heading-contact_details">
+							<p>Address : </p>
 							<p>24A Kingston St, Los Vegas NC 28202, USA.</p>
 						</div>
-						<div className="book__footer-heading-contact_details">
-							<p> Mail : </p>
-							<p>support@doctors.com</p>
+						<div className="">
+							<p>Mail : </p>
+							<p> support@doctors.com</p>
 						</div>
-						<div className="book__footer-heading-contact_details">
-							<p> Phone : </p>
+						<div className="">
+							<p>Phone : </p>
 							<p>(+22) 123 - 4567 - 900</p>
 						</div>
 					</div>
