@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import { Navbar, Footer, Readfreechapter, Article } from "../../components";
+import { Navbar, Footer, Readfreechapter, Article } from "./../../components";
 import Ratings from "./../../assets/ratings.svg";
 import TestimonialCard from "./testimonialcard/TestimonialCard";
 import Chapters from "./chapters/Chapters";
