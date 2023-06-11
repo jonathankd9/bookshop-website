@@ -10,12 +10,109 @@ import James from "./../../assets/James.png";
 import Christina from "./../../assets/Christina.png";
 import Wywlimg from "./../../assets/wywl.png";
 import GetCopy from "./../../assets/getcopy.png";
+import Amazen from "./../../assets/amazencorp.png";
+import Megan from "./../../assets/meganbooks.png";
+import Los from "./../../assets/losbooks.png";
+import Urban from "./../../assets/urbanlib.png";
+import Author from "./../../assets/author.png";
+import QRcodeauthor from "./../../assets/qrcodeauthor.png";
 
 const Home = () => {
 	return (
 		<div>
 			<Navbar />
 			<h1>Home</h1>
+
+			{/* About the author */}
+			<div className="home-ata">
+				<div className="home-ata_container">
+					<div className="home-ata_image">
+						<img src={Author} alt="" />
+					</div>
+					<div className="home-ata_text">
+						<div className="home-ata_heading">About Author</div>
+						<hr className="home-getcopy_line" />
+						<p>
+							All the Lorem Ipsum generators on the Internet tend to repeated
+							predefined chunks as necessary, making this the first true value
+							generator on the Internet. It uses a dictionary of over 200 Latin
+							words, combined with a handful.
+						</p>
+
+						<table>
+							<tbody>
+								<tr className="row-1">
+									<td>02</td>
+									<td>4.5</td>
+									<td>04</td>
+								</tr>
+								<tr className="row-2">
+									<td>Books Published</td>
+									<td>User Reviews</td>
+									<td>Best Seller Awards</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div className="home-ata_qrcode">
+							<div className="home_ata_qrcodeimg">
+								<img src={QRcodeauthor} alt="" />
+							</div>
+							<div className="home-ata_qrcodetext">
+								<p>John Abraham , Ph.d</p>
+								<p>Mail : johnabraham@gmail.com</p>
+								<p>Phone : (+2) 123 545 9000</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{/* Trusted by the Best */}
+			<div className="home-tbtb">
+				<div className="home-tbtb_container">
+					<div className="primary-heading">Trusted by the Best</div>
+					<hr className="home-chapters-line" />
+					<div className="home-tbtb_container-logos">
+						<div className="tbtb-logos">
+							<img src={Amazen} alt="" />
+							<div className="tbtb-logos_text">
+								<h3>Amazen Corp</h3>
+								<p>
+									A long established fact that a who looking at it's layout.
+								</p>
+							</div>
+						</div>
+						<div className="tbtb-logos">
+							<img src={Megan} alt="" />
+							<div className="tbtb-logos_text">
+								<h3>Megan Books</h3>
+								<p>
+									A long established fact that a who looking at it's layout.
+								</p>
+							</div>
+						</div>
+						<div className="tbtb-logos">
+							<img src={Los} alt="" />
+							<div className="tbtb-logos_text">
+								<h3>Los Books</h3>
+								<p>
+									A long established fact that a who looking at it's layout.
+								</p>
+							</div>
+						</div>
+						<div className="tbtb-logos">
+							<img src={Urban} alt="" />
+							<div className="tbtb-logos_text">
+								<h3>Urban Lib</h3>
+								<p>
+									A long established fact that a who looking at it's layout.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			{/* Get a Copy of Book */}
 			<div className="home-getcopy">
