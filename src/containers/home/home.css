@@ -1,3 +1,170 @@
+/* Hero page */
+.home-hero {
+	min-height: 60.625rem;
+	background-color: var(--primary-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.home-hero_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5.9375rem;
+	width: 81.25rem;
+	height: 50rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-hero_welcome {
+	display: flex;
+	gap: 1rem;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.home-hero_container .home-hero_text .home-hero_welcome p {
+	font-family: "Cardo", sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 154.5%;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.02em;
+	color: #ffffff;
+}
+.home-hero-line {
+	width: 55px;
+	border: 1px solid #ffca42;
+	margin-top: 22px;
+	margin-bottom: 35px;
+}
+
+.home-hero_text {
+	display: flex;
+	flex-direction: column;
+}
+
+.home-hero_links {
+	display: flex;
+	gap: 2.3125rem;
+	/* justify-content: center; */
+	align-items: center;
+	margin: 3rem 0 3rem 0;
+}
+
+.home-hero_text h1 {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 65px;
+	line-height: 110%;
+	/* or 72px */
+	letter-spacing: -0.02em;
+	color: #ffffff;
+	margin-bottom: 2rem;
+}
+
+.home-hero .home-hero_text p {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 180%;
+	/* or 34px */
+	letter-spacing: -0.01em;
+	color: #b4c7e7;
+}
+
+.home-hero_text button {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+	align-items: center;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	height: 4.0625rem;
+	width: 13.5rem;
+	border-style: none;
+	cursor: pointer;
+	/* margin-top: 2rem; */
+}
+
+.home-hero_links a {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 125%;
+	/* identical to box height, or 24px */
+	/* text-decoration: none; */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	text-decoration: underline;
+	text-underline-offset: 10px;
+}
+
+.home.hero_image {
+	width: 100%;
+	height: 100%;
+}
+
+.home-hero_plr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.home-hero_plr-col {
+	display: flex;
+	gap: 1rem;
+	align-items: first baseline;
+}
+.home-hero_plr-col img {
+	width: 16px;
+	height: 16px;
+}
+.home-hero_plr-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.home-hero_plr-col .home-hero_plr-column p {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	/* identical to box height, or 29px */
+	letter-spacing: -0.01em;
+	color: #ffffff;
+}
+
+.home-hero_plr-col .home-hero_plr-column p:nth-child(2) {
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 170%;
+	letter-spacing: -0.01em;
+	color: #b4c7e7;
+}
+
+/* Author's books include */
+.home-abi {
+	min-height: 51.6875rem;
+	background-color: var(--bg-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.home-abi_container {
+	display: flex;
+	gap: 4.125rem;
+	width: 81.25rem;
+	height: 25rem;
+	/* align-items: center; */
+	/* justify-content: center; */
+}
+
 /* About the author */
 .home-ata {
 	display: flex;

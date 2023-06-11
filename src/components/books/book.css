@@ -1,0 +1,86 @@
+.book-card {
+	display: flex;
+	grid-template-columns: 1fr 1fr;
+}
+
+.book-card_image {
+}
+
+.book-card_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.book-card_name {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 120%;
+	/* or 38px */
+	letter-spacing: -0.02em;
+	color: #1b3764;
+	margin-bottom: 14px;
+}
+.book-card_desc {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 180%;
+	/* or 34px */
+	letter-spacing: -0.01em;
+	color: #969aa0;
+	margin-bottom: 1.875rem;
+}
+
+.book-card_text button {
+	font-family: "Cardo", sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+	align-items: center;
+	background-color: inherit;
+	color: var(--primary-color);
+	height: 4.0625rem;
+	width: 13.75rem;
+	border-style: none;
+	cursor: pointer;
+	margin-top: 2rem;
+	border: 1px solid #ffca42;
+}
+
+.book-card_pnl {
+	display: flex;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.5rem;
+}
+
+.book-card_grid {
+	display: flex;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	justify-content: center;
+	align-items: first baseline;
+}
+.book-card_grid img {
+	width: 16px;
+	height: 16px;
+}
+
+.book-card_smallgrid {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 170%;
+	letter-spacing: -0.01em;
+	color: #969aa0;
+}
+
+.book-card_smallgrid h2 {
+	font-family: "Cardo";
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	/* identical to box height, or 29px */
+
+	letter-spacing: -0.01em;
+	color: #1b3764;
+}

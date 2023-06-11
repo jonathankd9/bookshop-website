@@ -1,10 +1,15 @@
 import React from "react";
 import "./home.css";
 import { Navbar, Footer, Readfreechapter, Article } from "./../../components";
-import Ratings from "./../../assets/ratings.svg";
+
+// Components imports
 import TestimonialCard from "./testimonialcard/TestimonialCard";
 import Chapters from "./chapters/Chapters";
 import Wywl from "./wywl/Wywl";
+import Book from "../../components/books/Book";
+
+// Image imports
+import Ratings from "./../../assets/ratings.svg";
 import Martin from "./../../assets/Martin.png";
 import James from "./../../assets/James.png";
 import Christina from "./../../assets/Christina.png";
@@ -16,12 +21,94 @@ import Los from "./../../assets/losbooks.png";
 import Urban from "./../../assets/urbanlib.png";
 import Author from "./../../assets/author.png";
 import QRcodeauthor from "./../../assets/qrcodeauthor.png";
+import AtomicOne from "./../../assets/atomicone.png";
+import DarkLightL from "./../../assets/darklightlarge.png";
+import DarkLight from "./../../assets/thedarklight.png";
+import Circle from "./../../assets/circle.png";
 
 const Home = () => {
 	return (
 		<div>
 			<Navbar />
-			<h1>Home</h1>
+
+			{/* Hero page */}
+			<div className="home-hero">
+				<div className="home-hero_container">
+					<div className="home-hero_text">
+						<div className="home-hero_welcome">
+							<hr className="home-hero-line" />
+							<p>Welcome to Pages</p>
+						</div>
+
+						<h1>Books are uniquely portable magic </h1>
+						<p>
+							There are many variations of passages of Lorem Ipsum available,
+							but the majority have suffered alteration in some form.
+						</p>
+
+						<div className="home-hero_links">
+							<button>Order Today</button>
+							<a href="">Read Free Demo</a>
+						</div>
+
+						<div className="home-hero_plr">
+							<div className="home-hero_plr-col">
+								<div className="">
+									<img src={Circle} alt="" />
+								</div>
+								<div className="home-hero_plr-column">
+									<p>Pages:</p>
+									<p>586pages</p>
+								</div>
+							</div>
+							<div className="home-hero_plr-col">
+								<div className="">
+									<img src={Circle} alt="" />
+								</div>
+								<div className="home-hero_plr-column">
+									<p>Length:</p>
+									<p>10 Hours:</p>
+								</div>
+							</div>
+							<div className="home-hero_plr-col">
+								<div className="">
+									<img src={Circle} alt="" />
+								</div>
+								<div className="home-hero_plr-column">
+									<p>Ratings:</p>
+									<p>4.5/5 (305 ratings)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div className="home-hero_image">
+						<img src={DarkLightL} alt="" />
+					</div>
+				</div>
+			</div>
+
+			{/* Author books includes */}
+			<div className="home-abi">
+				<div className="primary-heading">Author's Books Includes</div>
+				<hr className="home-chapters-line" />
+				<div className="home-abi_container">
+					<Book
+						image={AtomicOne}
+						name="Atomic's One"
+						desc="Many variations of passages of Lorem Ipsum willing araise  alteration in some form."
+						pages="860 pages"
+						length="10 Hours"
+					/>
+					<Book
+						image={DarkLight}
+						name="The Dark Light"
+						desc="Many variations of passages of Lorem Ipsum willing araise  alteration in some form."
+						pages="860 pages"
+						length="10 Hours"
+					/>
+				</div>
+			</div>
 
 			{/* About the author */}
 			<div className="home-ata">

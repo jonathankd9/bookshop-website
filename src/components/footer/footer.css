@@ -1,6 +1,16 @@
 .book__footer {
 	min-height: 50vh;
 	background-color: var(--primary-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.book__footer-container {
+	display: flex;
+	flex-direction: column;
+	width: 81.25rem;
+	justify-content: center;
 }
 
 .book__footer-heading {
@@ -18,7 +28,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-content: flex-start;
-	padding: 8.5rem 2rem 0 2rem;
+	padding: 8.5rem 0rem 0rem 0rem;
 }
 /* .book__footer-explore,
 .book__footer-utility,
