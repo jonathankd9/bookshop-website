@@ -156,11 +156,11 @@
 	align-items: center;
 	justify-content: center;
 }
+
 .home-abi_container {
-	display: flex;
 	gap: 4.125rem;
 	width: 81.25rem;
-	height: 25rem;
+	height: auto;
 	/* align-items: center; */
 	/* justify-content: center; */
 }

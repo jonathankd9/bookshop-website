@@ -1,6 +1,10 @@
 @import url("https://fonts.cdnfonts.com/css/cardo");
 @import url("https://fonts.cdnfonts.com/css/inter");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
 	--primary-color: #1b3764;
 	--secondary-color: #ffca42;

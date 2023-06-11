@@ -30,10 +30,9 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar />
-
 			{/* Hero page */}
 			<div className="home-hero">
-				<div className="home-hero_container">
+				<div className="home-hero_container grid">
 					<div className="home-hero_text">
 						<div className="home-hero_welcome">
 							<hr className="home-hero-line" />
@@ -87,12 +86,11 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-
 			{/* Author books includes */}
 			<div className="home-abi">
 				<div className="primary-heading">Author's Books Includes</div>
 				<hr className="home-chapters-line" />
-				<div className="home-abi_container">
+				<div className="home-abi_container grid grid-cols-2">
 					<Book
 						image={AtomicOne}
 						name="Atomic's One"
@@ -109,7 +107,6 @@ const Home = () => {
 					/>
 				</div>
 			</div>
-
 			{/* About the author */}
 			<div className="home-ata">
 				<div className="home-ata_container">
@@ -154,7 +151,6 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-
 			{/* Trusted by the Best */}
 			<div className="home-tbtb">
 				<div className="home-tbtb_container">
@@ -200,7 +196,6 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-
 			{/* Get a Copy of Book */}
 			<div className="home-getcopy">
 				<div className="home-getcopy_container">
@@ -219,7 +214,6 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-
 			{/* What you will learn */}
 			<div className="home-wywl">
 				<div className="home-wywl_container">
@@ -252,7 +246,6 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-
 			{/* Chapters */}
 			<div className="home-chapters">
 				<div className="home-chapters_container">
@@ -300,7 +293,6 @@ const Home = () => {
 					<p>Have any questions? Contact us</p>
 				</div>
 			</div>
-
 			{/* Testimonials */}
 			<div className="home-testimonials">
 				<div className="home-testimonials_container">
@@ -353,7 +345,6 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-
 			<Article />
 			{/* Read a Free Chapter */}
 			<Readfreechapter />
