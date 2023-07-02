@@ -93,15 +93,17 @@
 	opacity: 20%;
 }
 
-.book__footer-lower {
+/* .book__footer-lower {
 	font-family: "Inter", sans-serif;
-	color: var(--tertiary-color);
 	font-size: 17px;
 	line-height: 34px;
 	text-align: center;
 	letter-spacing: -1%;
 	padding: 1.125rem 0 1.438rem;
-}
+} */
+/* .book__footer-lower p {
+	color: white;
+} */
 .book__footer-lower p span {
 	font-weight: 700;
 }
