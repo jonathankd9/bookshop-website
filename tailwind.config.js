@@ -6,7 +6,7 @@ export default {
 			sm: "340px",
 			// => @media (min-width: 640px) { ... }
 
-			md: "1024px",
+			md: "900px",
 			// => @media (min-width: 1024px) { ... }
 
 			desktop: "1280px",

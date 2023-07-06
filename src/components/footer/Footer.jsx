@@ -13,7 +13,7 @@ const Footer = () => {
 	return (
 		<div className="book__footer">
 			<div className="book__footer-container sm:">
-				<div className="book__footer-upper">
+				<div className="book__footer-upper ">
 					<div className="book__footer-logo">
 						<img src={logo} alt="book logo" />
 						<div className="book__footer-social">
@@ -71,7 +71,7 @@ const Footer = () => {
 				<hr className="book__footer-line" />
 
 				<div className="book__footer-lower">
-					<p className=" text-center text-slate-200">
+					<p className="">
 						© Drafted by <span>Victorflow</span> - Powered by{" "}
 						<span>Webflow</span>
 					</p>
